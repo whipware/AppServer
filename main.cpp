@@ -2,5 +2,5 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    std::count<<"This is my first C++ project"<<std::endl;
+    std::cout<<"This is my first C++ project"<<std::endl;
 }
