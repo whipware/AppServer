@@ -5,6 +5,7 @@ project(AppServer)
 
 
 target_link_libraries(${PROJECT_NAME}
+    PRIVATE
     "-losip2"
     "-losipparser2"
 )
