@@ -5,7 +5,8 @@ project(AppServer)
 
 # add the executable
 add_executable(${PROJECT_NAME} main.cpp)
-
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+link_directories(/usr/local/lib)
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
     "-losip2"
